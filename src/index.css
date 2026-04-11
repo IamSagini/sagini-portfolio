@@ -290,11 +290,11 @@ body {
   color: var(--white-30); text-align: center; padding: 0 1.5rem;
   letter-spacing: 0.04em;
 }
-.hero__online {
+ .hero__online {
   margin-top: 1rem;
   display: inline-flex; align-items: center; gap: 0.4rem;
-  font-family: var(--font-mono); font-size: 0.68rem;
-  color: var(--white-30); letter-spacing: 0.05em;
+  font-family: var(--font-mono); font-size: 0.8rem;
+  color: var(--white); letter-spacing: 0.05em;
 }
 
 @keyframes fadeUp {
@@ -565,13 +565,12 @@ body {
   color: var(--white); letter-spacing: 0.04em;
   backdrop-filter: blur(2px);
 }
-.hero__online {
+ .hero__online {
   margin-top: 0.85rem;
   display: inline-flex; align-items: center; gap: 0.4rem;
-  font-family: var(--font-mono); font-size: 0.68rem;
-  color: var(--white-30); letter-spacing: 0.05em;
+  font-family: var(--font-mono); font-size: 0.8rem;
+  color: var(--white); letter-spacing: 0.05em;
 }
-
 /* ── AI BANNER ── */
 .ai-banner {
   background: linear-gradient(90deg, rgba(0,212,255,0.08) 0%, rgba(99,102,241,0.08) 100%);

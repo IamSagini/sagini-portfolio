@@ -198,7 +198,7 @@ export default function App() {
           <div className="hero__left">
             <div className="hero__badge">
               <span className="hero__badge-dot" />
-              Available for work · London / Remote
+              Data Analyst & Senior Full-Stack Developer · Based in London · Open to remote roles
             </div>
             <h1 className="hero__headline">
               <span className="hero__line-1">Enoch</span>
