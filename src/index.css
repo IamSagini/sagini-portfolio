@@ -192,6 +192,7 @@ body {
   padding: 0.3rem 0.85rem; border-radius: 100px;
   margin-bottom: 2rem; letter-spacing: 0.06em;
   animation: fadeUp 0.8s var(--ease) 0.1s both;
+  width: fit-content;
 }
 .hero__badge-dot {
   width: 6px; height: 6px; background: #4ade80;
@@ -212,8 +213,7 @@ body {
 .hero__line-2 {
   font-family: var(--font-serif);
   font-size: clamp(4.5rem, 11vw, 9rem);
-  color: transparent;
-  -webkit-text-stroke: 1px rgba(0,212,255,0.5);
+  color: rgba(255,255,255,0.18);
   padding-left: clamp(1.5rem, 4vw, 4rem);
   animation: fadeUp 0.9s var(--ease) 0.3s both;
 }

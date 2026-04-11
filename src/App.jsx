@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+ import { useState, useEffect, useRef } from "react";
 
 const NAV = ["Work", "Skills", "Experience", "About", "Contact"];
 
@@ -25,7 +25,7 @@ const PROJECTS = [
     desc: "Full UK care community platform with posts, articles, user profiles, resources, and community features. Migrated the client's WordPress site to a custom Laravel/MySQL solution, significantly improving performance and scalability.",
     data: "Used SQL and Python to analyse platform usage — visualising user engagement trends, content performance, and care provider activity through clear charts for non-technical stakeholders.",
     stack: ["Laravel", "MySQL", "PHP", "Custom CMS", "Data Analytics"],
-    link: "null,",
+    link: null,
     cta: "Currently unavailable",
     highlight: "Actively used by UK carers and care professionals.",
   },
@@ -162,19 +162,6 @@ function Cursor() {
 export default function App() {
   const scrollY = useScrollY();
   const [menu, setMenu] = useState(false);
-  const fileRef = useRef(null);
-
-  const handlePhoto = (e) => {
-    const file = e.target.files[0];
-    if (!file) return;
-    const reader = new FileReader();
-    reader.onload = (ev) => {
-      const dataUrl = ev.target.result;
-      localStorage.setItem("portfolio_photo", dataUrl);
-      setPhoto(dataUrl);
-    };
-    reader.readAsDataURL(file);
-  };
 
   return (
     <div>
@@ -246,25 +233,14 @@ export default function App() {
             </div>
           </div>
 
-          {/* PHOTO — click to upload */}
+          {/* PHOTO */}
           <div className="hero__photo-wrap">
-            <input
-              ref={fileRef}
-              type="file"
-              accept="image/*"
-              onChange={handlePhoto}
-              style={{ display: "none" }}
-            />
-            <div
-              className="hero__photo-frame"
-              onClick={() => fileRef.current.click()}
-              title="Click to upload your photo"
-            >
-               <img src="/photo.jpg" alt="Enoch Sagini" className="hero__photo" />
+            <div className="hero__photo-frame">
+              <img src="/photo.jpg" alt="Enoch Sagini" className="hero__photo" />
             </div>
             <div className="hero__online">
               <span className="hero__badge-dot" />
-              Open to work
+              Open to new opportunities
             </div>
           </div>
         </div>
@@ -438,7 +414,7 @@ export default function App() {
         <div className="container container--narrow contact">
           <h2 className="contact__headline">Let's talk.</h2>
           <p className="contact__sub">
-            Open to senior data analyst and full-stack engineering roles — remote or London-based.
+            Open to senior data analyst and full-stack engineering roles — remote, UK, EU, US and worldwide.
           </p>
           <a href="mailto:orareenoch@gmail.com" className="contact__email">orareenoch@gmail.com</a>
           <div className="contact__socials">
