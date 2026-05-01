@@ -85,12 +85,6 @@ const NAV = ["Work", "Skills", "Experience", "About", "Contact"];
 
 const COMING_SOON = [
   {
-    name: "AI-Powered Analytics Dashboard",
-    desc: "A data analytics platform with integrated LLM capabilities — natural language querying of datasets, automated insight generation, and interactive visualisations. Built on Python, React, and OpenAI APIs.",
-    stack: ["Python", "React", "OpenAI API", "PostgreSQL", "FastAPI"],
-    eta: "Summer 2026",
-  },
-  {
     name: "Smart Data Pipeline Tool",
     desc: "Automated data ingestion, cleaning, and reporting pipeline with AI-assisted anomaly detection and trend forecasting. Designed for small businesses to get enterprise-grade analytics.",
     stack: ["Python", "Pandas", "Node.js", "MongoDB", "ML"],
