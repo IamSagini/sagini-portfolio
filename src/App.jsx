@@ -109,7 +109,7 @@ const SKILLS = [
 
 const EXPERIENCE = [
   {
-    title: "Data Analyst & Senior Full-Stack Developer",
+    title: "Senior Full-Stack Developer · AI Engineer · Data Analyst",
     company: "Independent Projects & Client Work (Remote)",
     period: "2023 – Present",
     bullets: [
@@ -231,13 +231,13 @@ export default function App() {
           <div className="hero__left">
             <div className="hero__badge">
               <span className="hero__badge-dot" />
-              Data Analyst & Senior Full-Stack Developer · Based in London · Open to remote roles
+              Senior Full-Stack Developer · AI Engineer · Data Analyst · Based in London · Open to remote roles
             </div>
             <h1 className="hero__headline">
               <span className="hero__line-1">Enoch</span>
               <span className="hero__line-2">Sagini</span>
             </h1>
-            <p className="hero__role">Data Analyst & Senior Full-Stack Developer</p>
+            <p className="hero__role">Senior Full-Stack Developer · AI Engineer · Data Analyst</p>
             <p className="hero__sub">
               5+ years deriving actionable insights from complex datasets and building scalable
               web applications. Python · SQL · React · Node.js · Laravel.
@@ -255,7 +255,7 @@ export default function App() {
               </div>
               <div className="hero__stat-div" />
               <div className="hero__stat">
-                <span className="hero__stat-num">2</span>
+                <span className="hero__stat-num">5+</span>
                 <span className="hero__stat-label">Live production apps</span>
               </div>
               <div className="hero__stat-div" />
@@ -419,7 +419,7 @@ export default function App() {
           <h2 className="section__title section__title--ink">I build things that work</h2>
           <div className="about__body">
             <p>
-              I'm a Data Analyst and Senior Full-Stack Developer based in London with 5+ years of experience
+              I'm a Senior Full-Stack Developer, AI Engineer and Data Analyst based in London with 5+ years of experience
               across financial management, social care, and agricultural sectors. I specialise in Python (Pandas,
               Matplotlib, NumPy) and SQL for data analysis, and Node.js, React, and Laravel for full-stack development.
             </p>
@@ -447,7 +447,7 @@ export default function App() {
         <div className="container container--narrow contact">
           <h2 className="contact__headline">Let's talk.</h2>
           <p className="contact__sub">
-            Open to senior data analyst and full-stack engineering roles — remote, UK, EU, US and worldwide.
+            Open to senior full-stack, AI engineering and data analyst roles — remote, UK, EU, US and worldwide.
           </p>
           <a href="mailto:orareenoch@gmail.com" className="contact__email">orareenoch@gmail.com</a>
           <div className="contact__socials">
